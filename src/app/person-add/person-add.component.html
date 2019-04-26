@@ -1,0 +1,12 @@
+<ion-list>
+  <ion-item>
+    <ion-input [(ngModel)]="person.name" placeholder="Nama"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="person.address" placeholder="Alamat"></ion-input>  
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="person.ttl" placeholder="TTL"></ion-input>  
+  </ion-item>
+</ion-list>
+<ion-button (click)="savePerson()">Simpan</ion-button>
